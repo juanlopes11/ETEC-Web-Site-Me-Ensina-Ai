@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Backervile';
+    src: url(../fontes/LibreBaskerville-Regular.ttf);
+}
+    body,html {
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(95, 92, 84);
+    }
+    p{
+        margin: 0px;
+        padding: 0px;  
+    }
+
+    h1{
+        margin: 0px;
+        padding: 0px;   
+    }
+
+
+    h2{
+        margin: 0px;
+        padding: 0px;  
+    }
+
+    .subtitulo{
+        padding-top: 25px;
+        font-family: 'Backervile',Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    header {
+        height: 240px;
+        width: auto;
+        background-image: url("../imagens/a1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        background-clip: right;
+        background-color: rgb(95, 92, 84);
+        display: block;
+    }
+
+    .navprincipal {
+        height: 35px;
+        width: 865px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(41, 33, 30);
+    }
+
+    .linknav{
+        color: white;
+        font-size:20px ;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    a:hover{
+        color: rgb(71, 71, 71);
+    }
+
+    .ulmenu{
+        padding: 0px;
+        width: 865px;
+        display: inline;
+        list-style: none;
+        margin-top: auto;
+        position: absolute;
+        text-align: center;
+    }
+
+    .limenu{
+        display: inline;
+        padding: 2px 10px;
+    }
+
+.logo{
+    width: 50%;
+    height: 150px;
+    display: flexbox;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+    .pnome {
+        font-family: 'Baskerville',Georgia, 'Times New Roman', Times, serif;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        font-size: 100px;
+        text-align: center;
+    }
+
+    main{
+        width: 865px;
+        height: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        background-color:rgb(255, 241, 229) ;
+    }
+
+    .textomain{
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .textomain2{
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .titulomain{
+        padding-top: 20px;
+        font-family: 'Backervile',Georgia, 'Times New Roman', Times, serif;;
+        text-align: center;
+    }
+
+    .fotomain{
+        width: 157;
+    }
+
+    .divfotogrupo{
+        width: 865px;
+        height: 198px;
+         margin-top: 15px;
+        background-color:  rgb(41, 33, 30);
+        display: block;
+    }
+
+    .divfoto{
+        padding: 0px;
+        display: block;
+        float: left;
+        width: 150px;
+        height: 198px;
+        background-color: rgb(255, 247, 239);
+        margin-left: 19px;
+    }
+
+    .pfoto{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-family: 'Helvetica', Georgia, 'Times New Roman', Times, serif; 
+    }
+
+    .pfotodesc{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: small;
+        font-family: 'Helvetica', Georgia, 'Times New Roman', Times, serif; 
+        border-bottom: solid 3px rgb(95, 92, 84);
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);  
+    }
+
+    .foto{
+        padding: 0px;
+        margin: 0px;
+        width: 150px;
+        height: 160px;
+        border-bottom: solid 3px rgb(95, 92, 84);
+        box-sizing: border-box;
+    }
